@@ -1,0 +1,49 @@
+@media screen and (max-width:768px) {
+	*{
+		margin:0;padding: 0;
+	}
+
+	html,body{
+		height: 100%;
+		width: 100%;
+	}
+	/*内容样式，使用flex布局*/
+	.content{
+		width: 15rem;
+		display: flex;
+  		flex-direction: column;
+ 		justify-content: space-around;
+  		align-items: center;
+  		/*height: 46rem;*/
+  		position: absolute;
+}
+
+	.Select-box-2{
+		display: none;
+		float: none;
+	}
+
+	.Select-box-2  li{
+		background-color: yellow;
+		display: none;
+		float: none;
+	}
+	
+	/*content下的所有div宽度*/
+	.content div{
+		width: 100%;
+	}
+	/*每个选择框的宽度*/
+	.content li{
+		width: 4.69rem;
+	}
+
+	input[type="button"], input[type="submit"], input[type="reset"] {
+
+	-webkit-appearance: none;
+
+	}
+
+	textarea {  -webkit-appearance: none;}  
+	
+}
